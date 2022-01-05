@@ -51,7 +51,7 @@ script {
         attachments: attachments
     ])
 
-   sh "curl -X POST http://localhost:4200' -d "{'text':'Notification msg'}" <WEBHOOK_URL>"
+   sh "curl -X POST http://localhost:4200' -d "{'text':'Notification msg'}" <slackURL>"
 }
 }
 }}
